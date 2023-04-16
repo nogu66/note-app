@@ -27,16 +27,18 @@ const Note = () => {
 					<input
 						type="text"
 						placeholder="タイトル"
+						value={title}
 						onChange={onTitleChange}
 					></input>
 					<textarea
 						placeholder="ご自由にお書きください。"
+						value={body}
 						onChange={onBodyChange}
 					></textarea>
 				</form>
 				<button onClick={addNote}>投稿</button>
 			</div>
-			<div className="Note">
+			<div className="Post">
 				<ul>
 					{notes.map((note, index) => (
 						<li key={index}>

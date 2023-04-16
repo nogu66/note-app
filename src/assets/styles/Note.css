@@ -50,11 +50,18 @@
 .Note button:hover {
 	cursor: pointer;
 }
-ul {
-	margin-top: 100px;
-	text-decoration: none;
+
+.Post {
+	width: 60%;
+	margin: 0 auto;
+	padding: 0;
 }
 
-li {
+.Post ul {
+	margin-top: 100px;
+	padding: 0;
+}
+
+.Post li {
 	list-style: none;
 }
