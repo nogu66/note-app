@@ -1,0 +1,60 @@
+.Note {
+	padding: 3rem 0;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.Note form {
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 50px;
+}
+
+.Note form input[type='text'],
+.Note form textarea {
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #333;
+}
+
+.Note form input[type='text'] {
+	padding: 1rem 0.5rem;
+	font-size: 2rem;
+	border: none;
+	font-weight: bold;
+	width: 100%;
+}
+
+.Note form textarea {
+	padding: 1rem 0.5rem;
+	margin-top: 2rem;
+	border: none;
+	width: 100%;
+	min-height: 200px;
+	resize: none;
+}
+.Note button {
+	border: none;
+	background-color: #2cb696;
+	color: white;
+	font-weight: bold;
+	padding: 0.4rem 1.5rem;
+	margin-top: 2rem;
+	border-radius: 0.2rem;
+	float: right;
+	align-self: flex-end;
+}
+
+.Note button:hover {
+	cursor: pointer;
+}
+ul {
+	margin-top: 100px;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
