@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../assets/styles/Note.css';
 
-export const Post = () => {
+export const Note = () => {
 	const [notes, setNotes] = useState([]);
 	const [title, setTitle] = useState('');
 	const [body, setBody] = useState('');
@@ -21,7 +21,7 @@ export const Post = () => {
 	};
 
 	return (
-		<section>
+		<div>
 			<div className="Note">
 				<form>
 					<input
@@ -48,6 +48,6 @@ export const Post = () => {
 					))}
 				</ul>
 			</div>
-		</section>
+		</div>
 	);
 };

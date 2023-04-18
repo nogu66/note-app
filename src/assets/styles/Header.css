@@ -1,0 +1,10 @@
+.header {
+	background: grey;
+}
+
+.header h1 {
+	padding: 4px 16px;
+	margin: 0;
+	color: whitesmoke;
+	font-size: 24px;
+}

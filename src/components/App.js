@@ -1,9 +1,9 @@
 import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import { Top } from './Top';
-import { Post } from './Post';
+import { Note } from './Note';
 
 export const router = createBrowserRouter([
 	{ path: '/', element: <Top /> },
-	{ path: 'post', element: <Post /> },
+	{ path: 'post', element: <Note /> },
 ]);
