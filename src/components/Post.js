@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../assets/styles/Note.css';
 
-const Note = () => {
+export const Post = () => {
 	const [notes, setNotes] = useState([]);
 	const [title, setTitle] = useState('');
 	const [body, setBody] = useState('');
@@ -51,5 +51,3 @@ const Note = () => {
 		</section>
 	);
 };
-
-export default Note;
